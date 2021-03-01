@@ -2,8 +2,7 @@
 #include "MainGame.h"
 
 void MainGame::Init()
-{
-	OBJ->Add(new Player, "player");
+{	
 }
 
 void MainGame::Update()
