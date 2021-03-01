@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{d33a96bf-1c5f-45a3-8389-8ef28d3e1534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{e627474e-0512-48a7-baae-0acae673d645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr">
+      <UniqueIdentifier>{674af17d-99a0-4977-bc14-a8c91e168a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\CAM">
+      <UniqueIdentifier>{26a99ca6-7975-41be-832a-0afac63bdb4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\IMG">
+      <UniqueIdentifier>{ecdb0297-36b4-41f2-a3c8-fa0dbe56f9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\OBJ">
+      <UniqueIdentifier>{29e3146b-53d1-4c33-8f36-2e3489693f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\OBJ\obj">
+      <UniqueIdentifier>{3a752c66-f6f5-4fee-a85e-d26c0d716ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\OBJ\obj\col">
+      <UniqueIdentifier>{30ab33bb-2e97-463e-9023-9b9e1adc2a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\SCENE">
+      <UniqueIdentifier>{2414f5c9-e872-4eb0-9edd-53a8a8d749ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\SOUND">
+      <UniqueIdentifier>{9e5ebb93-3afc-496d-97ad-2321c8751694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\INPUT">
+      <UniqueIdentifier>{8237a30d-2688-40d6-8905-c677a6c6d787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\SCENE\scene">
+      <UniqueIdentifier>{84d1d34a-a6df-48d1-9778-d30a9b425a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLASS">
+      <UniqueIdentifier>{850e60e0-5ea6-4f45-a6ed-6d321703af0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr\TIME">
+      <UniqueIdentifier>{8bce7a84-ee73-4a33-8f7a-5dd597b12c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\obj">
+      <UniqueIdentifier>{19ca3754-05fc-4fa5-b07c-a1af0d111a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\scene">
+      <UniqueIdentifier>{87fc6b78-279d-4833-a008-fa8d18fb8372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLASS\UI">
+      <UniqueIdentifier>{7edcaa93-e6d1-45a7-824b-54adbff9fc53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLASS\Animation">
+      <UniqueIdentifier>{e0b12c39-d76c-4567-a2d4-1ddc85f9c3a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="YH.cpp" />
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CamMgr.cpp">
+      <Filter>Mgr\CAM</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgMgr.cpp">
+      <Filter>Mgr\IMG</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>Mgr\OBJ\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Col.cpp">
+      <Filter>Mgr\OBJ\obj\col</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Mgr\SCENE\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>Mgr\SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>Mgr\SOUND</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMgr.cpp">
+      <Filter>Mgr\INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>Mgr\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>Mgr\TIME</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="singletone.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CamMgr.h">
+      <Filter>Mgr\CAM</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgMgr.h">
+      <Filter>Mgr\IMG</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>Mgr\OBJ\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Col.h">
+      <Filter>Mgr\OBJ\obj\col</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Mgr\SCENE\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>Mgr\SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>Mgr\SOUND</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMgr.h">
+      <Filter>Mgr\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>Mgr\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>Mgr\TIME</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="YH.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
